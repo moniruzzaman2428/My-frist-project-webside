@@ -13,12 +13,23 @@
 }
 
 /* share-style */
+.web-bg{
+    background-color: #FFF8F3;
+}
 .Moni-ruzz-aman{
     color: #FD6E0A;
     ;
     font-size: 45px;
 }
-
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(2, 35, 36);
+}
+.section-dis{
+    font-size: 18px;
+    color: #757575;
+}
 
 /* Nav styles */
 nav{
@@ -58,6 +69,10 @@ nav ul li a {
    border: none;
 
 }
+.mt-ditals{
+    text-align: justify;
+    color: rgb(71, 71, 71) ;
+}
 /* banner styls */
 .banner{
     display: flex;
@@ -72,10 +87,31 @@ max-width: 580px;
     font-weight: 600;
 }
 .Moniruzzaman{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
 }
 .mt-img{
     width: 580px;
     
+}
+/* main style */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* about */
+.about{
+    border-radius: 15px;
+    padding: 130px 155px;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.items-dis{
+    font-weight: bold;
 }
