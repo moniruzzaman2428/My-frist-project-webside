@@ -206,4 +206,10 @@ footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+.ancor{
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+}
+
     
