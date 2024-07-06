@@ -135,3 +135,37 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 5px 50px 0px rgb(150, 160, 95) ;
 }
+/* resume section style */
+.resume-content{
+    display: flex;
+    gap: 30px;
+}
+.sub-ex-ti{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+.sub-ti{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.resume-col-ti{
+    font-size: 26px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.colom{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 80px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.Mttt{
+    margin-top: 50px;
+}
