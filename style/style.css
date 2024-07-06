@@ -169,3 +169,41 @@ main section{
 .Mttt{
     margin-top: 50px;
 }
+.footer-colom{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    /* margin: 0 auto; */
+    padding: 130px 230px;
+}
+footer input[type="text"] {
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 20px ;
+    margin-bottom: 24px;
+    border: none;
+}
+footer input[type="email"]{
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 20px ;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    height: 100px;
+    border-radius: 7px;
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 20px ;
+    margin-bottom: 24px;
+    border: none;
+}
+    
