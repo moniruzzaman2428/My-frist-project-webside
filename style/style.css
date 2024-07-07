@@ -160,9 +160,12 @@ main section{
 .colom{
     font-size: 30px;
     font-weight: bold;
-    color: #474747;
+    color: #fffcfc;
     margin-bottom: 80px;
-    background-color: antiquewhite;
+    background-color: #FD6E0A;
+    text-align: center;
+    border-radius: 20px;
+    
 }
 .resume hr{
     margin: 30px 5px;
@@ -214,4 +217,7 @@ margin-top: 100px;
 background-color: wheat;
 }
 
+hr{
+    border-bottom: 5px dashed #FD6E0A;
+}
     
