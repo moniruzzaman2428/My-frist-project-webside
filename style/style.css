@@ -1,6 +1,6 @@
 
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_b_copy-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -14,10 +14,10 @@
 
 /* share-style */
 .web-bg{
-    background-color: #FFF8F3;
+    background-color: #eee8fc;
 }
 .Moni-ruzz-aman{
-    color: #FD6E0A;
+    color: #a47dfe;
     ;
     font-size: 45px;
 }
@@ -63,7 +63,7 @@ nav ul li a {
     color: rgb(71, 71, 71) ;
 }
 .btn-MT{
-    background-color: #FD6E0A;
+    background-color: #a47dfe;
    font-weight: bold;
    color: white;
    padding: 18px 35px;
@@ -162,7 +162,7 @@ main section{
     font-weight: bold;
     color: #fffcfc;
     margin-bottom: 80px;
-    background-color: #FD6E0A;
+    background-color: #a47dfe;
     text-align: center;
     border-radius: 20px;
     
@@ -214,10 +214,10 @@ footer textarea{
 display: flex;
 justify-content: space-evenly;
 margin-top: 100px;
-background-color: wheat;
+background-color: 
 }
 
 hr{
-    border-bottom: 5px dashed #FD6E0A;
+    border-bottom: 5px dashed #a47dfe;
 }
     
