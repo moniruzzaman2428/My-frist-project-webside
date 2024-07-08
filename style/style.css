@@ -172,6 +172,8 @@ main section{
 }
 .Mttt{
     margin-top: 50px;
+    text-decoration: none;
+    font-style: normal;
 }
 .footer-colom{
     display: flex;
