@@ -135,16 +135,26 @@ main section{
 /* section-2 */
 .skill-father{
     display: flex;
-    justify-content: space-around;
     gap: 24px;
     
+}
+.skill{
+    max-width: 1140px;
+    border: 2px solid red;
 }
 .skills{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 5px 50px 0px rgb(150, 160, 95) ;
+    box-shadow: 0px 5px 50px 0px rgb(150, 160, 95);
+    /* justify-content: space-around; */
+    /* width: 100%; */
+    /* flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center; */
 }
 /* resume section style */
+
 .resume-content{
     display: flex;
     gap: 30px;
@@ -231,4 +241,63 @@ background-color:
 hr{
     border-bottom: 5px dashed #a47dfe;
 }
-    
+.hide{
+    display: none;
+}
+
+/* responsive Quary */
+ /* .hide{
+    display: none;} */
+
+ @media screen and (max-width: 576px) {
+    nav, .banner, .resume-content, .about-items, .footer-colom{
+        flex-direction: column;
+    }
+    main{
+        max-width: 100%;
+    }
+    nav{
+        margin: 0%;
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: row-reverse; 
+        flex-wrap: wrap;    
+        margin: 0%;
+    }
+    .banner{
+        margin: 0%;
+    }
+    .Moniruzzaman{
+        font-size: 3rem;
+    }
+    .btn-margin .btn-MT{
+        width: 170px;
+        font-size: 0.9rem;
+    }
+    .mt-img{
+        width: 100%;
+    }
+    .about{
+        padding: 0%;
+       max-width: 100%;
+    }
+    .skill{
+       max-width: 100%;
+        height: auto;
+    }
+    .skill-father{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .resume{
+        max-width: 100%;
+    }
+    .footer-colom{
+        padding: 0%;
+        max-width: 100%;
+    }
+    #from .inputt{
+        width: 320px
+    }
+ }
