@@ -240,6 +240,13 @@ background-color:
 hr{
     border-bottom: 5px dashed #a47dfe;
 }
+.All-right p{
+    color: #757575;
+    text-align: center;
+}
+.All-right hr{
+    border:2px solid gray; 
+}
 .hide{
     display: none;
 }
@@ -298,5 +305,9 @@ hr{
     }
     #from .inputt{
         width: 320px
+    }
+    .All-right p{
+        font-size: small;
+        color: #757575;
     }
  }
